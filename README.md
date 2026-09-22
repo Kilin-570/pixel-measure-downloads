@@ -1,0 +1,25 @@
+# 像素測距 PixelMeasure
+
+Android AR 兩點測距測試版。每量完一組可繼續量下一組，保留本次線段與數值；「重測」清除本次量測。
+
+## 下載與更新
+
+**[下載最新版 APK](https://github.com/Kilin-570/pixel-measure-downloads/releases/latest)**
+
+1. 開啟上方連結，在 Assets 選擇 **PixelMeasure.apk**，不是 Source code。
+2. 在手機開啟 APK，依系統提示允許該來源安裝。
+3. 已有舊版請直接按更新，不要先解除安裝。
+
+不需 GitHub 帳號、USB 或同一個 Wi-Fi。0.6.0 起 App 的「更新」按鈕會開啟此公開入口，仍須手動下載與安裝。舊版使用者先從本頁安裝一次新版。
+
+## 手機需求與使用
+
+Android 8.0 以上、ARM64、支援 ARCore，並安裝 Google Play Services for AR。Depth 是否支援依手機而定；開啟 App 的「手機檢查」查看結果。
+
+允許相機權限，在明亮、有紋理的場景緩慢移動手機；準星穩定後依序設定起點與終點。完成一組後可繼續下一組。重要數值請儲存為本機文字紀錄，未儲存的線段會在 App 結束或重建後消失。
+
+這是獨立開發的測試版，不是 Google 官方 App，也不是 Google Play 上架版。相容性檢查通過不代表精度保證；請用實體尺比對。玻璃、反光、低紋理、昏暗環境與長距離可能無法可靠量測。
+
+App 請求相機權限，沒有加入廣告或分析追蹤；Google Play Services for AR 適用 Google 的隱私權政策。分享本機紀錄由使用者自行操作。
+
+本儲存庫僅提供下載說明與 APK；Source code 壓縮檔只包含這裡的說明文件，不包含 App 原始碼。一般下載者不能修改或刪除發布的版本。
